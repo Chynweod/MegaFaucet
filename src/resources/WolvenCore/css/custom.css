@@ -1,0 +1,65 @@
+.navbar-brand {
+    margin-top: 0px !important;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+
+.footer-credits {
+    letter-spacing: 0.50px;
+}
+
+.footer-credits {
+    padding-top: 25px;
+}
+
+.f-of span {
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+.homepage-cover {
+    min-height: 20vh !important;
+}
+
+.ethics {
+    min-height: 0 !important;
+}
+
+.red {
+    color: red;
+}
+
+@media screen and (max-width: 1205px) {
+
+    .f-of {
+        padding-top: 20px;
+    }
+
+}
+
+.margin-fix-checkbox {
+    margin-top: -15px !important;
+}
+
+.page-wrapper {
+    padding-top: 100px;
+}
+
+.tpromo {
+    font-family: "Questrial";
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 250%;
+}
+
+.control-label {
+    font-family: "Titillium Web";
+    letter-spacing: 1px;
+}
+
+.btn-sm {
+    font-size: 14px !important;
+    padding: 10px 20px 10px 20px;
+}
