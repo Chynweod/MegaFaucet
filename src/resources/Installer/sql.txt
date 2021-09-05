@@ -1,0 +1,179 @@
+-- Adminer 4.2.5 MySQL dump
+
+SET NAMES utf8;
+SET time_zone = '+00:00';
+SET foreign_key_checks = 0;
+SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
+
+DROP TABLE IF EXISTS `admin_details`;
+CREATE TABLE `admin_details` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `user_name` varchar(16) NOT NULL,
+  `password` varchar(256) NOT NULL,
+  `token` varchar(256) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `token` (`token`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+DROP TABLE IF EXISTS `ads`;
+CREATE TABLE `ads` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `type` int(11) NOT NULL,
+  `code` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `ads` (`id`, `type`, `code`) VALUES
+(4,	1,	'<a href=\"javascript:alert(\'Add a real banner here.\');\"><img src=\"https://placehold.it/160x600\"></a>'),
+(5,	2,	'<a href=\"javascript:alert(\'Add a real banner here.\');\"><img src=\"https://placehold.it/728x90\"></a>'),
+(6,	3,	'<a href=\"javascript:alert(\'Add a real banner here.\');\"><img src=\"https://placehold.it/468x60\"></a>'),
+(7,	4,	'<a href=\"javascript:alert(\'Add a real banner here.\');\"><img src=\"https://placehold.it/468x60\"></a>'),
+(8,	5,	'<a href=\"javascript:alert(\'Add a real banner here.\');\"><img src=\"https://placehold.it/300x250\"></a>'),
+(9,	6,	'<a href=\"javascript:alert(\'Add a real banner here.\');\"><img src=\"https://placehold.it/160x600\"></a>');
+
+DROP TABLE IF EXISTS `claims_hashes`;
+CREATE TABLE `claims_hashes` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `user_id` bigint(20) NOT NULL,
+  `hash` varchar(64) NOT NULL,
+  `win_amount` decimal(20,8) NOT NULL,
+  `time` bigint(64) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `round_id` (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+DROP TABLE IF EXISTS `claims_registered`;
+CREATE TABLE `claims_registered` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `user_id` bigint(20) NOT NULL,
+  `user_name` varchar(32) NOT NULL,
+  `time` bigint(64) NOT NULL,
+  `amount_credited` decimal(20,8) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `user_id` (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+DROP TABLE IF EXISTS `config`;
+CREATE TABLE `config` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `parameter` varchar(32) NOT NULL,
+  `value` text NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `parameter` (`parameter`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `config` (`id`, `parameter`, `value`) VALUES
+(1,	'website_name',	'MyLittleFaucet'),
+(7,	'website_homepage_title',	'Decent Paying Faucet'),
+(32,	'coin_name',	'Bitcoin'),
+(36,	'contact_email_address',	''),
+(37,	'no_reply_email_address',	''),
+(39,	'coin_abbreviation',	'BTC'),
+(40,	'faucet_reward',	'0.00005'),
+(41,	'faucet_time_limit',	'30'),
+(43,	'captcha_used',	'2'),
+(44,	'site_key',	''),
+(45,	'secret_key',	''),
+(46,	'ch_target_hashes',	'256'),
+(47,	'ouo_api_key',	''),
+(48,	'shortest_api_token',	''),
+(49,	'shortlink_preference',	'2'),
+(50,	'automated_withdrawals',	'true'),
+(51,	'faucetpay_api_key',	'XX'),
+(57,	'stats_Total_Users',	'0'),
+(58,	'stats_Claims_Made',	'0'),
+(59,	'stats_Amount_Claimed',	'0.000000000'),
+(60,	'referral_percentage',	'25'),
+(61,	'anti_ad_blocker',	'0'),
+(63,	'use_smtp',	'true'),
+(64,	'smtp_auth',	'true'),
+(65,	'email_smtp_encryption',	'ssl'),
+(66,	'email_smtp_host',	''),
+(67,	'email_smtp_username',	''),
+(68,	'email_smtp_password',	''),
+(69,	'email_confirmation',	'false'),
+(70,	'email_smtp_port',	'465');
+
+DROP TABLE IF EXISTS `email_updates`;
+CREATE TABLE `email_updates` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `user_id` bigint(20) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `confirm_code` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+DROP TABLE IF EXISTS `error_log`;
+CREATE TABLE `error_log` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `message` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+DROP TABLE IF EXISTS `failed_history`;
+CREATE TABLE `failed_history` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `log` varchar(512) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+DROP TABLE IF EXISTS `referral_returns`;
+CREATE TABLE `referral_returns` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `user_name` varchar(32) NOT NULL,
+  `referred_by` bigint(20) NOT NULL,
+  `amount` decimal(20,8) NOT NULL,
+  `time` bigint(64) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `referred_by` (`referred_by`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users` (
+  `user_id` bigint(11) NOT NULL AUTO_INCREMENT,
+  `user_name` varchar(32) NOT NULL,
+  `user_email` varchar(64) NOT NULL,
+  `password_hash` varchar(255) NOT NULL,
+  `user_verified` tinyint(4) NOT NULL DEFAULT '0',
+  `account_status` tinyint(4) NOT NULL DEFAULT '1',
+  `activation_hash` varchar(255) DEFAULT NULL,
+  `reset_hash` varchar(255) DEFAULT NULL,
+  `rememberme_token` varchar(255) DEFAULT NULL,
+  `failed_logins` mediumint(9) NOT NULL,
+  `last_failed_login` bigint(20) NOT NULL,
+  `last_logged_in` datetime NOT NULL,
+  `registration_datetime` datetime NOT NULL,
+  `registration_ip` varchar(255) NOT NULL,
+  `session_ip` varchar(256) NOT NULL,
+  `last_claimed` bigint(64) NOT NULL DEFAULT '1',
+  `claims_made` int(11) NOT NULL,
+  `referred_income` decimal(20,8) NOT NULL,
+  `referral_income` decimal(20,8) NOT NULL,
+  `referral` int(11) NOT NULL DEFAULT '0',
+  `address` varchar(256) NOT NULL,
+  PRIMARY KEY (`user_id`),
+  UNIQUE KEY `user_name` (`user_name`),
+  KEY `referral` (`referral`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+DROP TABLE IF EXISTS `withdrawals`;
+CREATE TABLE `withdrawals` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` bigint(20) NOT NULL,
+  `address` varchar(256) NOT NULL,
+  `amount` decimal(20,8) NOT NULL DEFAULT '0.00000000',
+  `status` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `status_force_push` (`status`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+-- 2018-06-21 04:25:40
