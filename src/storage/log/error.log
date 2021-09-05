@@ -1,0 +1,665 @@
+
+Uncaught  --> Smarty: Unable to load template 'file:/var/www/staging/skimrish/views/One/Error404.tpl' <-- 
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught  --> Smarty: Unable to load template 'file:/var/www/staging/skimrish/views/One/Home.tpl' <-- 
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Call to undefined method App::footerText() in /var/www/staging/skimrish/storage/cache/templates_c/c2b09a22d986fbe6aa3e6054a9427998e6f75212_0.file.Footer.tpl.php:137
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_resource_base.php(128): content_5afe8f75172f97_14454491(Object(Smarty_Internal_Template))
+#1 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_compiled.php(172): Smarty_Template_Resource_Base->getRenderedTemplateCode(Object(Smarty_Internal_Template))
+#2 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_template.php(206): Smarty_Template_Compiled->render(Object(Smarty_Internal_Template))
+#3 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_template.php(372): Smarty_Internal_Template->render()
+#4 /var/www/staging/skimrish/storage/cache/templates_c/6691721965fb89c1565e44503634219f56128435_0.file.Error404.tpl.php(66): Smarty_Internal_Template->_subTemplateRender('/var/www/stagin...', NULL, NULL, 0, 3600, Array, 0, t
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Call to undefined method App::footerText() in /var/www/staging/skimrish/storage/cache/templates_c/c2b09a22d986fbe6aa3e6054a9427998e6f75212_0.file.Footer.tpl.php:137
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_resource_base.php(128): content_5afe8f76d1bfb9_89063935(Object(Smarty_Internal_Template))
+#1 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_compiled.php(172): Smarty_Template_Resource_Base->getRenderedTemplateCode(Object(Smarty_Internal_Template))
+#2 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_template.php(206): Smarty_Template_Compiled->render(Object(Smarty_Internal_Template))
+#3 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_template.php(372): Smarty_Internal_Template->render()
+#4 /var/www/staging/skimrish/storage/cache/templates_c/6691721965fb89c1565e44503634219f56128435_0.file.Error404.tpl.php(66): Smarty_Internal_Template->_subTemplateRender('/var/www/stagin...', NULL, NULL, 0, 3600, Array, 0, t
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Call to undefined method App::getAd() in /var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php:131
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_resource_base.php(128): content_5afea062de7d46_46183493(Object(Smarty_Internal_Template))
+#1 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_compiled.php(172): Smarty_Template_Resource_Base->getRenderedTemplateCode(Object(Smarty_Internal_Template))
+#2 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_template.php(206): Smarty_Template_Compiled->render(Object(Smarty_Internal_Template))
+#3 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_templatebase.php(216): Smarty_Internal_Template->render(false, 1)
+#4 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_templatebase.php(122): Smarty_Internal_TemplateBase->_execute(Object(Smarty_Internal_Template), NULL, NULL, NULL, 1)
+#5 /var/www/staging/skimrish/lib/As
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Call to undefined method App::getAd() in /var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php:131
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_resource_base.php(128): content_5afea065462c16_14245385(Object(Smarty_Internal_Template))
+#1 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_compiled.php(172): Smarty_Template_Resource_Base->getRenderedTemplateCode(Object(Smarty_Internal_Template))
+#2 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_template.php(206): Smarty_Template_Compiled->render(Object(Smarty_Internal_Template))
+#3 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_templatebase.php(216): Smarty_Internal_Template->render(false, 1)
+#4 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_templatebase.php(122): Smarty_Internal_TemplateBase->_execute(Object(Smarty_Internal_Template), NULL, NULL, NULL, 1)
+#5 /var/www/staging/skimrish/lib/As
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[128] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[128] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[128] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[128] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[128] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[128] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[128] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[128] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[128] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[128] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[128] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[128] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[128] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[128] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Undefined index: items
+[127] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Trying to get property of non-object
+Uncaught Error: Call to a member function fetch_assoc() on boolean in /var/www/staging/skimrish/controllers/homeIndexController.php:32
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Astrid/App.php(136): homeIndexController->home()
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#2 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#3 {main}
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Call to a member function fetch_assoc() on boolean in /var/www/staging/skimrish/controllers/homeIndexController.php:32
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Astrid/App.php(136): homeIndexController->home()
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#2 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#3 {main}
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Call to a member function fetch_assoc() on boolean in /var/www/staging/skimrish/controllers/homeIndexController.php:32
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Astrid/App.php(136): homeIndexController->home()
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#2 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#3 {main}
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[132] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'id'
+[134] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'user_name'
+[136] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'amount_credited'
+[139] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'time'
+[132] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'id'
+[134] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'user_name'
+[136] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'amount_credited'
+[139] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'time'
+[132] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'id'
+[134] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'user_name'
+[136] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'amount_credited'
+[139] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'time'
+[132] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'id'
+[134] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'user_name'
+[136] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'amount_credited'
+[139] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'time'
+[132] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'id'
+[134] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'user_name'
+[136] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'amount_credited'
+[139] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'time'
+[132] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'id'
+[134] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'user_name'
+[136] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'amount_credited'
+[139] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'time'
+[132] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'id'
+[134] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'user_name'
+[136] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'amount_credited'
+[139] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'time'
+[132] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'id'
+[134] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'user_name'
+[136] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'amount_credited'
+[139] [/var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php] Illegal string offset 'time'
+Uncaught Error: Call to undefined method App::UserLoggedIn() in /var/www/staging/skimrish/storage/cache/templates_c/15b9f414cb1adcf7c29a424b46bb0a4d166f7050_0.file.Header.tpl.php:87
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_resource_base.php(128): content_5aff0697998027_17825758(Object(Smarty_Internal_Template))
+#1 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_compiled.php(172): Smarty_Template_Resource_Base->getRenderedTemplateCode(Object(Smarty_Internal_Template))
+#2 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_template.php(206): Smarty_Template_Compiled->render(Object(Smarty_Internal_Template))
+#3 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_template.php(372): Smarty_Internal_Template->render()
+#4 /var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php(27): Smarty_Internal_Template->_subTemplateRender('/var/www/stagin...', NULL, NULL, 0, 3600, Array, 0, true
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Call to undefined method App::UserLoggedIn() in /var/www/staging/skimrish/storage/cache/templates_c/15b9f414cb1adcf7c29a424b46bb0a4d166f7050_0.file.Header.tpl.php:87
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_resource_base.php(128): content_5aff06997e0d32_06878328(Object(Smarty_Internal_Template))
+#1 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_compiled.php(172): Smarty_Template_Resource_Base->getRenderedTemplateCode(Object(Smarty_Internal_Template))
+#2 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_template.php(206): Smarty_Template_Compiled->render(Object(Smarty_Internal_Template))
+#3 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_template.php(372): Smarty_Internal_Template->render()
+#4 /var/www/staging/skimrish/storage/cache/templates_c/ffcf6deee3b9e294f9a3d6318109f4ffa46312b2_0.file.Home.tpl.php(27): Smarty_Internal_Template->_subTemplateRender('/var/www/stagin...', NULL, NULL, 0, 3600, Array, 0, true
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: App
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Call to undefined method App::lang() in /var/www/staging/skimrish/controllers/accountController.php:33
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Astrid/App.php(136): accountController->login()
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#2 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#3 {main}
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Call to undefined method App::lang() in /var/www/staging/skimrish/controllers/accountController.php:33
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Astrid/App.php(136): accountController->login()
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#2 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#3 {main}
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Call to undefined method App::lang() in /var/www/staging/skimrish/storage/cache/templates_c/271cb293138ac4fb4818fafcc6e43d1c355dce42_0.file.Login.tpl.php:47
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_resource_base.php(128): content_5aff072aaebff5_98116712(Object(Smarty_Internal_Template))
+#1 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_compiled.php(172): Smarty_Template_Resource_Base->getRenderedTemplateCode(Object(Smarty_Internal_Template))
+#2 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_template.php(206): Smarty_Template_Compiled->render(Object(Smarty_Internal_Template))
+#3 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_templatebase.php(216): Smarty_Internal_Template->render(false, 1)
+#4 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_templatebase.php(122): Smarty_Internal_TemplateBase->_execute(Object(Smarty_Internal_Template), NULL, NULL, NULL, 1)
+#5 /var/www/staging/skimrish/lib/Ast
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Call to undefined method App::lang() in /var/www/staging/skimrish/storage/cache/templates_c/271cb293138ac4fb4818fafcc6e43d1c355dce42_0.file.Login.tpl.php:70
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_resource_base.php(128): content_5aff0816a2bb84_23138122(Object(Smarty_Internal_Template))
+#1 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_template_compiled.php(172): Smarty_Template_Resource_Base->getRenderedTemplateCode(Object(Smarty_Internal_Template))
+#2 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_template.php(206): Smarty_Template_Compiled->render(Object(Smarty_Internal_Template))
+#3 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_templatebase.php(216): Smarty_Internal_Template->render(false, 1)
+#4 /var/www/staging/skimrish/lib/Smarty/sysplugins/smarty_internal_templatebase.php(122): Smarty_Internal_TemplateBase->_execute(Object(Smarty_Internal_Template), NULL, NULL, NULL, 1)
+#5 /var/www/staging/skimrish/lib/Ast
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Account
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: No such file or directory
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Account
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: No such file or directory
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Account
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: No such file or directory
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Account
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Account
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught  --> Smarty: Unable to load template 'file:/var/www/staging/skimrish/views/WolvenCore/Register.tpl' <-- 
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Account
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Account
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Account
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[83] [/var/www/staging/skimrish/models/Bootstrapper.php] require_once(/var/www/staging/skimrish/models/responseTranslator.php): failed to open stream: No such file or directory
+require_once(): Failed opening required '/var/www/staging/skimrish/models/responseTranslator.php' (include_path='.:/usr/share/php')
+[83] [/var/www/staging/skimrish/models/Bootstrapper.php] require_once(/var/www/staging/skimrish/models/responseTranslator.php): failed to open stream: No such file or directory
+require_once(): Failed opening required '/var/www/staging/skimrish/models/responseTranslator.php' (include_path='.:/usr/share/php')
+[133] [/var/www/staging/skimrish/lib/Authentication/Authentication.php] mysqli_stmt::bind_param(): invalid object or resource mysqli_stmt
+
+[134] [/var/www/staging/skimrish/lib/Authentication/Authentication.php] mysqli_stmt::execute(): invalid object or resource mysqli_stmt
+
+[135] [/var/www/staging/skimrish/lib/Authentication/Authentication.php] mysqli_stmt::get_result(): invalid object or resource mysqli_stmt
+
+[136] [/var/www/staging/skimrish/lib/Authentication/Authentication.php] mysqli_stmt::close(): invalid object or resource mysqli_stmt
+
+Uncaught Error: Call to a member function fetch_assoc() on null in /var/www/staging/skimrish/lib/Authentication/Authentication.php:137
+Stack trace:
+#0 /var/www/staging/skimrish/models/accountModel.php(26): Authentication->login('hg', ' gh')
+#1 /var/www/staging/skimrish/controllers/accountController.php(42): Account::loginHandler(Object(Authentication))
+#2 /var/www/staging/skimrish/lib/Astrid/App.php(136): accountController->login()
+#3 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#4 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#5 {main}
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught  --> Smarty: Unable to load template 'file:/var/www/staging/skimrish/views/WolvenCore/Register.tpl' <-- 
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught  --> Smarty: Unable to load template 'file:/var/www/staging/skimrish/views/WolvenCore/Settings.tpl' <-- 
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught  --> Smarty: Unable to load template 'file:/var/www/staging/skimrish/views/WolvenCore/Settings.tpl' <-- 
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[104] [/var/www/staging/skimrish/storage/cache/templates_c/d75fdb1c59f9e2e67846b3318adb4f1e22b60bbb_0.file.Settings.tpl.php] Undefined index: u
+[104] [/var/www/staging/skimrish/storage/cache/templates_c/d75fdb1c59f9e2e67846b3318adb4f1e22b60bbb_0.file.Settings.tpl.php] Trying to get property of non-object
+[107] [/var/www/staging/skimrish/storage/cache/templates_c/d75fdb1c59f9e2e67846b3318adb4f1e22b60bbb_0.file.Settings.tpl.php] Undefined index: qr
+[107] [/var/www/staging/skimrish/storage/cache/templates_c/d75fdb1c59f9e2e67846b3318adb4f1e22b60bbb_0.file.Settings.tpl.php] Trying to get property of non-object
+[117] [/var/www/staging/skimrish/storage/cache/templates_c/d75fdb1c59f9e2e67846b3318adb4f1e22b60bbb_0.file.Settings.tpl.php] Undefined index: key_code
+[117] [/var/www/staging/skimrish/storage/cache/templates_c/d75fdb1c59f9e2e67846b3318adb4f1e22b60bbb_0.file.Settings.tpl.php] Trying to get property of non-object
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[36] [/var/www/staging/skimrish/models/App.php] Missing argument 1 for App::vomitLoginPageByRedirection(), called in /var/www/staging/skimrish/controllers/pageController.php on line 28 and defined
+[38] [/var/www/staging/skimrish/models/App.php] Undefined variable: auth
+Uncaught Error: Call to a member function UserLoggedIn() on null in /var/www/staging/skimrish/models/App.php:38
+Stack trace:
+#0 /var/www/staging/skimrish/controllers/pageController.php(28): App::vomitLoginPageByRedirection()
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(136): pageController->dashboard()
+#2 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#3 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#4 {main}
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[36] [/var/www/staging/skimrish/models/App.php] Missing argument 1 for App::vomitLoginPageByRedirection(), called in /var/www/staging/skimrish/controllers/pageController.php on line 28 and defined
+[38] [/var/www/staging/skimrish/models/App.php] Undefined variable: auth
+Uncaught Error: Call to a member function UserLoggedIn() on null in /var/www/staging/skimrish/models/App.php:38
+Stack trace:
+#0 /var/www/staging/skimrish/controllers/pageController.php(28): App::vomitLoginPageByRedirection()
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(136): pageController->dashboard()
+#2 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#3 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#4 {main}
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[36] [/var/www/staging/skimrish/models/App.php] Missing argument 1 for App::vomitLoginPageByRedirection(), called in /var/www/staging/skimrish/controllers/pageController.php on line 28 and defined
+[38] [/var/www/staging/skimrish/models/App.php] Undefined variable: auth
+Uncaught Error: Call to a member function UserLoggedIn() on null in /var/www/staging/skimrish/models/App.php:38
+Stack trace:
+#0 /var/www/staging/skimrish/controllers/pageController.php(28): App::vomitLoginPageByRedirection()
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(136): pageController->dashboard()
+#2 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#3 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#4 {main}
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[36] [/var/www/staging/skimrish/models/App.php] Missing argument 1 for App::vomitLoginPageByRedirection(), called in /var/www/staging/skimrish/controllers/pageController.php on line 28 and defined
+[38] [/var/www/staging/skimrish/models/App.php] Undefined variable: auth
+Uncaught Error: Call to a member function UserLoggedIn() on null in /var/www/staging/skimrish/models/App.php:38
+Stack trace:
+#0 /var/www/staging/skimrish/controllers/pageController.php(28): App::vomitLoginPageByRedirection()
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(136): pageController->dashboard()
+#2 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#3 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#4 {main}
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[42] [/var/www/staging/skimrish/controllers/pageController.php] Non-static method App::value_gen() should not be called statically
+[42] [/var/www/staging/skimrish/controllers/pageController.php] Non-static method App::value_gen() should not be called statically
+[42] [/var/www/staging/skimrish/controllers/pageController.php] Non-static method App::value_gen() should not be called statically
+[42] [/var/www/staging/skimrish/controllers/pageController.php] Non-static method App::value_gen() should not be called statically
+[42] [/var/www/staging/skimrish/controllers/pageController.php] Non-static method App::value_gen() should not be called statically
+[42] [/var/www/staging/skimrish/controllers/pageController.php] Non-static method App::value_gen() should not be called statically
+[42] [/var/www/staging/skimrish/controllers/pageController.php] Non-static method App::value_gen() should not be called statically
+[42] [/var/www/staging/skimrish/controllers/pageController.php] Non-static method App::value_gen() should not be called statically
+[42] [/var/www/staging/skimrish/controllers/pageController.php] Non-static method App::value_gen() should not be called statically
+[105] [/var/www/staging/skimrish/storage/cache/templates_c/a0b9d5dc978e6180a46afb2f044c26d09c9fa29b_0.file.Dashboard.tpl.php] Undefined index: claims_registered
+[105] [/var/www/staging/skimrish/storage/cache/templates_c/a0b9d5dc978e6180a46afb2f044c26d09c9fa29b_0.file.Dashboard.tpl.php] Trying to get property of non-object
+[105] [/var/www/staging/skimrish/storage/cache/templates_c/a0b9d5dc978e6180a46afb2f044c26d09c9fa29b_0.file.Dashboard.tpl.php] Undefined index: claims_registered
+[105] [/var/www/staging/skimrish/storage/cache/templates_c/a0b9d5dc978e6180a46afb2f044c26d09c9fa29b_0.file.Dashboard.tpl.php] Trying to get property of non-object
+Uncaught Error: Call to undefined method App::sendFaucetHub() in /var/www/staging/skimrish/controllers/pageController.php:105
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Astrid/App.php(134): pageController->dashboard('7732136c283858a...')
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#2 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#3 {main}
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[45] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: _SESSION
+[45] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[56] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[56] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[59] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[59] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[56] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[56] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[59] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[59] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_referred_users
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: total_claims_made
+[58] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Undefined index: referral_income
+[55] [/var/www/staging/skimrish/storage/cache/templates_c/a7f120d9594137b0500161b1c5d6665889173a07_0.file.Affiliate-Programme.tpl.php] Trying to get property of non-object
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[51] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Undefined index: claims_registered
+[51] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Trying to get property of non-object
+[51] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Undefined index: claims_registered
+[51] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Trying to get property of non-object
+[51] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Undefined index: claims_registered
+[51] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Trying to get property of non-object
+[39] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Trying to get property of non-object
+[39] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Trying to get property of non-object
+[39] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Trying to get property of non-object
+[92] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Undefined index: status
+[92] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Trying to get property of non-object
+[92] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Undefined index: status
+[92] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Trying to get property of non-object
+[92] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Undefined index: status
+[92] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Trying to get property of non-object
+[99] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Undefined index: status
+[99] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Trying to get property of non-object
+[92] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Undefined index: status
+[92] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Trying to get property of non-object
+[99] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Undefined index: status
+[99] [/var/www/staging/skimrish/storage/cache/templates_c/65e396bef3f8a22e048f4fd96a5a05300204165f_0.file.Referred-Users.tpl.php] Trying to get property of non-object
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught  --> Smarty: Unable to load template 'file:/var/www/staging/skimrish/views/WolvenCore/Reset-Password.tpl' <-- 
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught  --> Smarty: Unable to load template 'file:/var/www/staging/skimrish/views/WolvenCore/Resend-Email.tpl' <-- 
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Call to undefined function fernico_desotry() in /var/www/staging/skimrish/controllers/accountController.php:231
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Astrid/App.php(136): accountController->logout()
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#2 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#3 {main}
+  thrown
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Class 'Authentication' not found in /var/www/staging/skimrish/controllers/accountController.php:25
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Astrid/App.php(129): accountController->__construct()
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#2 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#3 {main}
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[35] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[36] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: No such file or directory
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[35] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[36] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Class 'Authentication' not found in /var/www/staging/skimrish/controllers/accountController.php:25
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Astrid/App.php(129): accountController->__construct()
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#2 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#3 {main}
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[47] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[48] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: No such file or directory
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Class 'Authentication' not found in /var/www/staging/skimrish/controllers/accountController.php:25
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Astrid/App.php(129): accountController->__construct()
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#2 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#3 {main}
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: No such file or directory
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[33] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] Undefined index: Reuqest
+[34] [/var/www/staging/skimrish/lib/Astrid/DependenciesLoader.php] require_once(/var/www/staging/skimrish/lib): failed to open stream: Success
+require_once(): Failed opening required '/var/www/staging/skimrish/lib/' (include_path='.:/usr/share/php')
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Call to a member function fetch_assoc() on boolean in /var/www/staging/skimrish/models/App.php:26
+Stack trace:
+#0 /var/www/staging/skimrish/controllers/pageController.php(92): App::sendFaucetHub(1, '0.00005000')
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(134): pageController->dashboard('0ca08474b2c9d51...')
+#2 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#3 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#4 {main}
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+Uncaught Error: Call to undefined function fernico_desotry() in /var/www/staging/skimrish/controllers/accountController.php:231
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Astrid/App.php(136): accountController->logout()
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#2 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#3 {main}
+  thrown
+Uncaught Error: Call to undefined function fernico_desotry() in /var/www/staging/skimrish/controllers/accountController.php:231
+Stack trace:
+#0 /var/www/staging/skimrish/lib/Astrid/App.php(136): accountController->logout()
+#1 /var/www/staging/skimrish/lib/Astrid/App.php(43): fernico->loadController()
+#2 /var/www/staging/skimrish/resources/index.php(21): fernico->__construct()
+#3 {main}
+  thrown
+Uncaught  --> Smarty: Unable to load template 'file:/var/www/staging/skimrish/views/WolvenCore/Reset-Password.tpl' <-- 
+  thrown
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
+[396] [/var/www/staging/skimrish/models/App.php] Undefined index: user_name
+[43] [/var/www/staging/skimrish/lib/Astrid/AstridSession.php] A session had already been started - ignoring session_start()
